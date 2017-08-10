@@ -1,0 +1,155 @@
+{
+  "state": "test",
+  "searchVehicle": {
+    "year": "2010",
+    "make": "Ford",
+    "model": "Escape",
+    "name": "4 Dr Sport Utility",
+    "option": "Hybrid"
+  },
+  "products": [{
+    "currentState": "tire",
+    "pName": "MotoMaster Total ",
+    "sizeStyle": "235/70R16 106T",
+    "imgUrl": "http://auto-shina.by/img/goods/tyres/small/taurus_touring%20301_small.jpg",
+    "pPrice": 40,
+    "id": "0062456",
+    "pQuantity": 4,
+    "vehicle": {
+      "year": "2010",
+      "make": "Ford",
+      "model": "Escape",
+      "name": "4 Dr Sport Utility",
+      "option": "Hybrid",
+      "vehicleID": 114433,
+      "IsModeled": true,
+      "sizeChosen": "235/70R16",
+      "id": 14610754549467
+    },
+    "isInStoreOnly": false,
+    "totalProduct": {
+      "stock": 100,
+      "sklad": 100
+    }
+  }, {
+    "currentState": "wheel",
+    "pName": "Steel Wheel - Black",
+    "sizeStyle": "",
+    "imgUrl": "http://www.avto-coras.ru/img/tyre/model/small/3432.jpg",
+    "pPrice": 78,
+    "id": "0045928",
+    "pQuantity": 0,
+    "vehicle": {
+      "year": "2010",
+      "make": "Ford",
+      "model": "Escape",
+      "name": "4 Dr Sport",
+      "option": "Hybrid",
+      "vehicleID": 114453,
+      "IsModeled": true,
+      "sizeChosen": "235/70R16",
+      "id": 1464666589467
+    },
+    "isInStoreOnly": false,
+    "totalProduct": {
+      "stock": 20,
+      "sklad": 30
+    }
+  }, {
+    "currentState": "wheel",
+    "pName": "Steel Wheel - Black",
+    "sizeStyle": "",
+    "imgUrl": "http://autotrust-tm.ru/img/tyres/ECSTA_HM_KH31_small.jpg",
+    "pPrice": 158,
+    "id": "0098927",
+    "pQuantity": 4,
+    "vehicle": {
+      "year": "2010",
+      "make": "Ford",
+      "model": "Escape",
+      "name": "4 Dr Sport",
+      "option": "Hybrid",
+      "vehicleID": 114863,
+      "IsModeled": true,
+      "sizeChosen": "235/50R17",
+      "id": 1461076589467
+    },
+    "isInStoreOnly": false,
+    "totalProduct": {
+      "stock": 0,
+      "sklad": 0
+    }
+  }, {
+    "currentState": "wheel",
+    "pName": "Steel Wheel - Black",
+    "sizeStyle": "",
+    "imgUrl": "http://www.internet-shina.ru/img/tires/big/Dunlop_Grandtrek_PT_2_small.jpg",
+    "pPrice": 84,
+    "id": "00456926",
+    "pQuantity": 8,
+    "vehicle": {
+      "year": "2010",
+      "make": "Ford",
+      "model": "Escape",
+      "name": "4 Dr Sport Utility",
+      "option": "",
+      "vehicleID": 114863,
+      "IsModeled": true,
+      "sizeChosen": "205/70R16",
+      "id": 1461076464567
+    },
+    "isInStoreOnly": true,
+    "totalProduct": {
+      "stock": 20,
+      "sklad": 100
+    }
+  }, {
+    "currentState": "wheel",
+    "pName": "Steel Wheel - Black",
+    "sizeStyle": "",
+    "imgUrl": "http://koleso.topof.ru/files/amtel_iv-167.jpg",
+    "pPrice": 74,
+    "id": "0098925",
+    "pQuantity": 4,
+    "vehicle": {
+      "year": "2010",
+      "make": "Ford",
+      "model": "Escape",
+      "name": "4 Dr Sport",
+      "option": "",
+      "vehicleID": 114563,
+      "IsModeled": true,
+      "sizeChosen": "205/70R16",
+      "id": 14614646589467
+    },
+    "isInStoreOnly": true,
+    "totalProduct": {
+      "stock": 100,
+      "sklad": 1
+    }
+  }, {
+    "currentState": "wheel",
+    "pName": "Steel Wheel - Black",
+    "sizeStyle": "",
+    "imgUrl": "http://koleso.topof.ru/files/amtel_iv-167.jpg",
+    "pPrice": 90,
+    "id": "0098924",
+    "pQuantity": 0,
+    "vehicle": {
+      "year": "2010",
+      "make": "Ford",
+      "model": "Escape",
+      "name": "4 Dr Sport",
+      "option": "",
+      "vehicleID": 114453,
+      "IsModeled": true,
+      "sizeChosen": "205/70R16",
+      "id": 1461045489467
+    },
+    "isInStoreOnly": true,
+    "totalProduct": {
+      "stock": 80,
+      "sklad": 1
+    }
+  }]
+}

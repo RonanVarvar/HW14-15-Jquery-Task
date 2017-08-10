@@ -1,0 +1,195 @@
+.c-body {
+  font-family: Arial, SansSerif;
+  width: 1170px;
+  background-color: lavender;
+}
+.c-header {
+  font-family: Arial, SansSerif;
+  font-size: 18pt;
+  width: 1125px;
+  height: 10%;
+  padding: 15px 15px 15px 30px;
+  background-color: black;
+  color: white;
+}
+.c-item {
+  font-family: Arial, SansSerif;
+  width: 1170px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.c-item__image {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+}
+.c-item__wrap {
+  width: 50%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.c-item__price-wrap {
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.c-item__header {
+  margin-bottom: 5px;
+}
+.c-item__id {
+  font-style: italic;
+  padding-bottom: 25px;
+  color: grey;
+}
+.c-item__vehicle,
+.c-item__size,
+.c-item__quantity {
+  font-weight: bold;
+}
+.c-item__vehicle-info,
+.c-item__size-info {
+  font-weight: normal;
+}
+.c-item__qty-input {
+  width: 40px;
+  height: 30px;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+.c-item__update {
+  padding-left: 5px;
+  font-style: italic;
+  cursor: pointer;
+}
+.c-item__close-button {
+  font-size: 30px;
+  color: grey;
+  margin-bottom: 80px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+.c-item__total {
+  margin-top: 20px;
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 35px;
+}
+.c-item__price {
+  margin-left: 120px;
+  font-weight: bold;
+}
+.c-error-message {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin-bottom: -10px;
+  border: 1px solid red;
+}
+.c-error-message__image {
+  padding: 30px;
+  float: left;
+}
+.c-error-message__text {
+  height: 57px;
+  padding-left: 10px;
+  padding-top: 32px;
+  margin-top: 5px;
+  border-left: 1px solid grey;
+  font-weight: bold;
+  color: red;
+  float: left;
+}
+.c-purchase {
+  background-color: white;
+  whidth: 100%;
+  height: 70px;
+}
+.c-purchase__button {
+  margin: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
+  padding: 10px;
+  float: right;
+  width: 180px;
+}
+.c-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(94, 110, 141, 0.9);
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.c-popup__container {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: 4em auto;
+  background: #FFF;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+.c-popup__text {
+  padding: 3em 1em;
+  font-size: 14pt;
+}
+.c-popup__buttons {
+  width: 85%;
+}
+.c-popup__buttons:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.c-popup__yes,
+.c-popup__no {
+  float: left;
+  width: 50%;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #FFF;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.c-popup__yes {
+  background: #fc7169;
+  cursor: pointer;
+}
+.c-popup__yes:hover {
+  background-color: #fc8982;
+}
+.c-popup__no {
+  background: #b6bece;
+  cursor: pointer;
+}
+.c-popup__no:hover {
+  background-color: #c5ccd8;
+}
+.c-popup__close {
+  font-size: 18pt;
+  color: grey;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
